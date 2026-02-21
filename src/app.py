@@ -26,7 +26,6 @@ db.init_app(app)
 CORS(app)
 setup_admin(app)
 
-
 @app.errorhandler(APIException)
 def handle_invalid_usage(error):
     return jsonify(error.to_dict()), error.status_code
