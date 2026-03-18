@@ -60,7 +60,6 @@ $ pipenv run diagram
 Este comando generará un archivo con el diagrama de la base de datos basado en los modelos definidos en `src/models.py`.
 
 ## Verifica tu API en vivo
-
 1. Una vez que ejecutes el comando `pipenv run start` tu API comenzará a ejecutarse en vivo y podrás abrirla haciendo clic en la pestaña "ports" y luego haciendo clic en "open browser".
 
 > ✋ Si estás trabajando en una nube de codificación como [Codespaces](https://docs.github.com/en/codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace#sharing-a-port) o [Gitpod](https://www.gitpod.io/docs/configure/workspaces/ports#configure-port-visibility) asegúrate de que tu puerto reenviado sea público.
